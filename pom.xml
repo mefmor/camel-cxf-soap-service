@@ -33,16 +33,6 @@
 			<artifactId>cxf-spring-boot-starter-jaxws</artifactId>
 			<version>${cxf.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-jaxb</artifactId>
-			<version>${camel.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.cxf.xjc-utils</groupId>
-			<artifactId>cxf-xjc-runtime</artifactId>
-			<version>3.3.0</version>
-		</dependency>
 
 		<!-- Testing -->
 		<dependency>

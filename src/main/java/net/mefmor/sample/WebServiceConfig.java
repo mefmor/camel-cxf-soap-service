@@ -1,7 +1,7 @@
 package net.mefmor.sample;
 
 
-import io.spring.guides.gs_producing_web_service.CountriesPortService;
+import io.spring.guides.gs_producing_web_service.CountriesPort;
 import org.apache.camel.component.cxf.CxfEndpoint;
 import org.apache.cxf.Bus;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +21,8 @@ public class WebServiceConfig {
         CxfEndpoint cxfEndpoint = new CxfEndpoint();
         cxfEndpoint.setAddress("/ws/");
         cxfEndpoint.setServiceNameString("s:country:countryService");
-        cxfEndpoint.setServiceClass(CountriesPortService.class);
+        cxfEndpoint.setServiceClass(CountriesPort.class);
+        cxfEndpoint.setBus(bus);
         return cxfEndpoint;
     }
 }
