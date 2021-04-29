@@ -23,3 +23,4 @@ Sample of SOAP request to the service:
 ## Resources
 [Camel CXF Component](https://camel.apache.org/components/2.x/cxf-component.html)
 [Code example SpringBoot + Camel + CXF](https://github.com/petenorth/camel-cxf-wsdl-first-spring-boot)
+[Defining Contract first webservices with wsdl generation from java](http://cxf.apache.org/docs/defining-contract-first-webservices-with-wsdl-generation-from-java.html)

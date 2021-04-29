@@ -1,1 +1,2 @@
-
+# By default the path is /service, e.g. full path will be http://localhost:8080/services/ws
+cxf.path: /
